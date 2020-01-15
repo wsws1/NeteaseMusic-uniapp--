@@ -1,0 +1,1 @@
+<view class="{{['content flex-center data-v-4f103bd0',(num<100)?'round':'']}}">{{countNum}}</view>

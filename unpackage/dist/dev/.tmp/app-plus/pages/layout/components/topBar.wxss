@@ -1,0 +1,19 @@
+
+.navs .nav.data-v-23c2f402 {
+	width: 110rpx;
+	color: #717171;
+}
+.menu-icon.data-v-23c2f402 {
+	position: relative;
+}
+.chat.data-v-23c2f402 {
+	position: absolute;
+	left: 40rpx;
+	top: -18rpx;
+}
+.navs .active.data-v-23c2f402 {
+	font-weight: bold;
+	color: #363636;
+	font-size: 36rpx;
+}
+

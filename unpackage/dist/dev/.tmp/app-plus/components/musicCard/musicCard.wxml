@@ -1,0 +1,1 @@
+<view class="content data-v-00d77744"><image src="{{info.picUrl}}" mode class="data-v-00d77744"></image><view class="text font28 data-v-00d77744">{{info.copywriter}}</view><view class="tag font24 flex data-v-00d77744"><view class="iconfont font24 icon-love _i data-v-00d77744"></view><text class="data-v-00d77744">{{num1}}</text></view></view>

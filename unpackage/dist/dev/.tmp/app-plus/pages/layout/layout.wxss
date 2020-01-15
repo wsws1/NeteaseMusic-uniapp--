@@ -1,0 +1,117 @@
+
+.locality-list.data-v-a0a6af5c {
+	border-bottom: 15rpx solid #f4f4f4;
+}
+.set-and-collect.data-v-a0a6af5c {
+	margin: 0 35rpx;
+}
+
+
+.container.data-v-f7248f1c {
+	margin: 0 30rpx;
+}
+.swiper.data-v-f7248f1c {
+	margin-top: 10rpx;
+	height: 17vh;
+	border: 1rpx solid;
+}
+.swiper .swiper-item.data-v-f7248f1c {
+	/* height: 17vh; */
+	/* width: 100%; */
+	/* border-radius: 10rpx; */
+	/* position: relative; */
+	/* border: 10rpx solid red; */
+	height: 100%;
+}
+.swiper image.data-v-f7248f1c {
+	border: 10rpx solid;
+	height: 17vh;
+	display: block;
+	border-radius: 10rpx;
+	margin: 0 30rpx;
+	width: calc(100% - 60rpx);
+}
+.swiper .tag.data-v-f7248f1c {
+	position: absolute;
+	right: 30rpx;
+	bottom: 0;
+	border-radius: 10rpx 0 10rpx 0;
+	color: #ffffff;
+	height: 40rpx;
+	padding: 0 10rpx;
+}
+
+/* roW-nav */
+.row-nav.data-v-f7248f1c {
+	margin: 40rpx 0;
+}
+.row-nav .list.data-v-f7248f1c {
+	width: 20%;
+}
+.row-nav .list .thumb.data-v-f7248f1c {
+	margin: 0 auto;
+	width: 70rpx;
+	height: 70rpx;
+	border-radius: 50%;
+	margin-bottom: 10rpx;
+	background: red;
+}
+
+/*  */
+.new-plate .title.data-v-f7248f1c,
+.recommend-playlist .title.data-v-f7248f1c {
+	padding: 30rpx 0 30rpx;
+}
+.new-plate .title .title .right.data-v-f7248f1c,
+.recommend-playlist .title .right.data-v-f7248f1c {
+	border: 1rpx solid #e5e5e5;
+	height: 50rpx;
+	width: 150rpx;
+	border-radius: 100rpx;
+}
+.new-plate .card-box.data-v-f7248f1c,
+.recommend-playlist .card-box.data-v-f7248f1c {
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	        align-items: flex-start;
+}
+.new-plate .music-card.data-v-f7248f1c,
+.recommend-playlist .music-card.data-v-f7248f1c {
+	width: 220rpx;
+}
+.new-plate .active.data-v-f7248f1c {
+	font-weight: bold;
+	font-size: 32rpx;
+	color: #343434;
+}
+.new-plate .left .item.data-v-f7248f1c:first-child {
+	margin-right: 20rpx;
+	position: relative;
+}
+.new-plate .left .item.data-v-f7248f1c:first-child:after {
+	content: '';
+	height: 32rpx;
+	width: 1rpx;
+	background: #e5e5e5;
+	position: absolute;
+	top: 6rpx;
+	right: -10rpx;
+}
+
+
+.container.data-v-a785b91c {
+	margin: 0 20rpx;
+}
+.topbar.data-v-a785b91c {
+	height: 110rpx;
+}
+.main.data-v-a785b91c {
+	height: calc(100vh - 110rpx - var(--status-bar-height));
+}
+.swiper-item.data-v-a785b91c,
+.scroll-view-y.data-v-a785b91c {
+	height: 100%;
+}
+

@@ -1,0 +1,31 @@
+
+.content.data-v-00d77744 {
+	width: 100%;
+	margin-bottom: 20rpx;
+	position: relative;
+}
+.content image.data-v-00d77744 {
+	width: 100%;
+	height: 220rpx;
+	border-radius: 10rpx;
+}
+.content .text.data-v-00d77744 {
+	width: 100%;
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	white-space: normal;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.content .tag.data-v-00d77744 {
+	position: absolute;
+	top: 10rpx;
+	right: 20rpx;
+	color: #ffffff;
+}
+.tag .iconfont.data-v-00d77744 {
+	margin-right: 10rpx;
+}
+
