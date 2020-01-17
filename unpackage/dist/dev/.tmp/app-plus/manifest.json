@@ -87,7 +87,7 @@
     "nvueLaunchMode": "fast",
     "allowsInlineMediaPlayback": true,
     "uni-app": {
-      "compilerVersion": "2.5.1",
+      "compilerVersion": "2.3.7",
       "control": "v8",
       "nvueCompiler": "uni-app",
       "renderer": "auto",

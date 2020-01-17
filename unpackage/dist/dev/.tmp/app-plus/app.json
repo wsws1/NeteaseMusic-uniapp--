@@ -1,12 +1,14 @@
 {
   "pages": [
+    "pages/search/search",
     "pages/layout/layout",
     "pages/homeMy/homeMy",
     "pages/homeFind/homeFind",
     "pages/homeVillage/homeVillage",
     "pages/homeVideo/homeVideo",
     "pages/aboutUserPage/myMessage",
-    "pages/aboutUserPage/setting/setting"
+    "pages/aboutUserPage/setting/setting",
+    "pages/playMenuSquare/playMenuSquare"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -21,6 +23,6 @@
     "autoclose": false
   },
   "appname": "VUE",
-  "compilerVersion": "2.5.1",
+  "compilerVersion": "2.3.7",
   "usingComponents": {}
 }

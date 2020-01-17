@@ -1,46 +1,40 @@
 
-.container.data-v-f7248f1c {
+.container {
 	margin: 0 30rpx;
 }
-.swiper.data-v-f7248f1c {
+.swiper {
 	margin-top: 10rpx;
 	height: 17vh;
-	border: 1rpx solid;
 }
-.swiper .swiper-item.data-v-f7248f1c {
-	/* height: 17vh; */
-	/* width: 100%; */
-	/* border-radius: 10rpx; */
-	/* position: relative; */
-	/* border: 10rpx solid red; */
+.swiper .swiper-item {
 	height: 100%;
+	border-radius: 10rpx;
+	position: relative;
 }
-.swiper image.data-v-f7248f1c {
-	border: 10rpx solid;
-	height: 17vh;
-	display: block;
+.swiper .image {
+	height: 100%;
 	border-radius: 10rpx;
 	margin: 0 30rpx;
 	width: calc(100% - 60rpx);
 }
-.swiper .tag.data-v-f7248f1c {
+.swiper .tag {
 	position: absolute;
-	right: 30rpx;
+	right: 32rpx;
 	bottom: 0;
 	border-radius: 10rpx 0 10rpx 0;
 	color: #ffffff;
 	height: 40rpx;
-	padding: 0 10rpx;
+	padding: 0 20rpx;
 }
 
 /* roW-nav */
-.row-nav.data-v-f7248f1c {
+.row-nav {
 	margin: 40rpx 0;
 }
-.row-nav .list.data-v-f7248f1c {
+.row-nav .list {
 	width: 20%;
 }
-.row-nav .list .thumb.data-v-f7248f1c {
+.row-nav .list .thumb {
 	margin: 0 auto;
 	width: 70rpx;
 	height: 70rpx;
@@ -50,39 +44,41 @@
 }
 
 /*  */
-.new-plate .title.data-v-f7248f1c,
-.recommend-playlist .title.data-v-f7248f1c {
+.new-plate .title,
+.recommend-playlist .title {
 	padding: 30rpx 0 30rpx;
 }
-.new-plate .title .title .right.data-v-f7248f1c,
-.recommend-playlist .title .right.data-v-f7248f1c {
+.new-plate .title .title .right,
+.recommend-playlist .title .right {
 	border: 1rpx solid #e5e5e5;
 	height: 50rpx;
 	width: 150rpx;
 	border-radius: 100rpx;
 }
-.new-plate .card-box.data-v-f7248f1c,
-.recommend-playlist .card-box.data-v-f7248f1c {
+.new-plate .card-box,
+.recommend-playlist .card-box {
 	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
 	        flex-wrap: wrap;
 	-webkit-box-align: start;
 	-webkit-align-items: flex-start;
+	    -ms-flex-align: start;
 	        align-items: flex-start;
 }
-.new-plate .music-card.data-v-f7248f1c,
-.recommend-playlist .music-card.data-v-f7248f1c {
+.new-plate .music-card,
+.recommend-playlist .music-card {
 	width: 220rpx;
 }
-.new-plate .active.data-v-f7248f1c {
+.new-plate .active {
 	font-weight: bold;
 	font-size: 32rpx;
 	color: #343434;
 }
-.new-plate .left .item.data-v-f7248f1c:first-child {
+.new-plate .left .item:first-child {
 	margin-right: 20rpx;
 	position: relative;
 }
-.new-plate .left .item.data-v-f7248f1c:first-child:after {
+.new-plate .left .item:first-child:after {
 	content: '';
 	height: 32rpx;
 	width: 1rpx;

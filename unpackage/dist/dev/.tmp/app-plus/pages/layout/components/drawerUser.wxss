@@ -16,6 +16,7 @@
 .login.data-v-083b7c5d {
 	-webkit-box-align: start;
 	-webkit-align-items: flex-start;
+	    -ms-flex-align: start;
 	        align-items: flex-start;
 }
 .login .info.data-v-083b7c5d {

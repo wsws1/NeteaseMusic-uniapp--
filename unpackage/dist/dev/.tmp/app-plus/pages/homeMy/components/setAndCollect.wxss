@@ -5,6 +5,7 @@
 }
 .lists .list.data-v-1afb0d43 {
 	-webkit-transition: all ease 0.4s 0.2s;
+	-o-transition: all ease 0.4s 0.2s;
 	transition: all ease 0.4s 0.2s;
 	height: 120rpx;
 }
@@ -14,10 +15,12 @@
 .menu .hd .hd-left-icon.data-v-1afb0d43 {
 	display: inline-block;
 	-webkit-transition: all ease 0.4s 0.2s;
+	-o-transition: all ease 0.4s 0.2s;
 	transition: all ease 0.4s 0.2s;
 }
 .transition .hd-left-icon.data-v-1afb0d43 {
 	-webkit-transform: rotate(-90deg);
+	    -ms-transform: rotate(-90deg);
 	        transform: rotate(-90deg);
 }
 .hd .hd-name.data-v-1afb0d43 {
