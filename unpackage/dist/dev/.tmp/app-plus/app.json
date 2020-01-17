@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/singer/singer",
     "pages/search/search",
     "pages/layout/layout",
     "pages/homeMy/homeMy",
