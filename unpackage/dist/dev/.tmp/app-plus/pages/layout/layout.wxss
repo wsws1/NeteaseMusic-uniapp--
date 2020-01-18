@@ -172,15 +172,11 @@
 }
 
 
-.container.data-v-a785b91c {
-	margin: 0 20rpx;
-}
-.topbar.data-v-a785b91c {
-	height: 110rpx;
+.tabbar.data-v-a785b91c {
+	height: 100rpx;
 }
 .main.data-v-a785b91c {
 	height: calc(100vh - 110rpx - var(--status-bar-height));
-	/* border: 4rpx solid red; */
 }
 .swiper.data-v-a785b91c,
 .swiper-item.data-v-a785b91c,

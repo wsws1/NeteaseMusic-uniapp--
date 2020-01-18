@@ -136,6 +136,12 @@
 .status_bar {
 	height: var(--status-bar-height);
 }
+.main-color {
+	color: #dd001b;
+}
+.main-bg {
+	background: #dd001b;
+}
 .flex {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -321,5 +327,58 @@
 	-webkit-transform: scaleY(0.5);
 	    -ms-transform: scaleY(0.5);
 	        transform: scaleY(0.5);
+}
+.container20 {
+	margin: 0 20rpx;
+}
+.container30 {
+	margin: 0 30rpx;
+}
+
+/* 点击波纹效果 */
+.ripple {
+	position: relative;
+	overflow: hidden;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+.ripple:after {
+
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	pointer-events: none;
+	/*设置径向渐变 */
+	/* background-image: radial-gradient(circle, #363636 80%, transparent 10.01%); */
+	/* background-image: radial-gradient(closest-corner  at 60% 55%, red, yellow, black); */
+	background-image: -o-radial-gradient(red, green, blue);
+	background-image: radial-gradient(red, green, blue);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	-webkit-transform: scale(10, 10);
+	    -ms-transform: scale(10, 10);
+	        transform: scale(10, 10);
+	opacity: 0;
+	-webkit-transition: opacity .6s, -webkit-transform .1s;
+	transition: opacity .6s, -webkit-transform .1s;
+	-o-transition: transform .1s, opacity .6s;
+	transition: transform .1s, opacity .6s;
+	transition: transform .1s, opacity .6s, -webkit-transform .1s;
+	overflow: hidden;
+}
+.ripple:active:after {
+	-webkit-transform: scale(0, 0);
+	    -ms-transform: scale(0, 0);
+	        transform: scale(0, 0);
+	opacity: .9;
+	/*设置初始状态 */
+	-webkit-transition: 0s;
+	-o-transition: 0s;
+	transition: 0s;
 }
 

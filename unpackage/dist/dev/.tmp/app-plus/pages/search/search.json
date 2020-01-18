@@ -1,5 +1,4 @@
 {
-  "navigationStyle": "custom",
   "usingComponents": {
     "search-suggest": "/components/searchSuggest/searchSuggest",
     "show-modal": "/components/showModal/showModal",

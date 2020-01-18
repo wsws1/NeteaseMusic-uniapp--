@@ -1,28 +1,20 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 
+
 		{
-			"path": "pages/singer/singer",
-			"style": {
-				"navigationStyle": "custom"
-			}
-		}, {
-			"path": "pages/search/search",
-			"style": {
-				"navigationStyle": "custom"
-			}
-		}, {
 			"path": "pages/layout/layout",
-			"style": {
-				"navigationStyle": "custom"
-			}
-		}, {
+			"style": {}
+		},
+		{
 			"path": "pages/homeMy/homeMy",
 			"style": {}
-		}, {
+		},
+		{
 			"path": "pages/homeFind/homeFind",
 			"style": {}
-		}, {
+		},
+		{
 			"path": "pages/homeVillage/homeVillage",
 			"style": {}
 		}, {
@@ -35,19 +27,32 @@
 		},
 		{
 			"path": "pages/aboutUserPage/setting/setting",
-			"style": {
-				"navigationStyle": "custom"
-			}
+			"style": {}
 		},
 		{
 			"path": "pages/playMenuSquare/playMenuSquare",
-			"style": {
-				"navigationStyle": "custom"
-			}
+			"style": {}
+		},
+		{
+			"path": "pages/singerLists/singerLists",
+			"style": {}
+		},
+		{
+			"path": "pages/singerPage/singerPage",
+			"style": {}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {}
+		},
+		{
+			"path": "pages/demo/demo",
+			"style": {}
 		}
 
 	],
 	"globalStyle": {
+		"navigationStyle": "custom",
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",

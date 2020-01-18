@@ -1,7 +1,5 @@
 {
   "pages": [
-    "pages/singer/singer",
-    "pages/search/search",
     "pages/layout/layout",
     "pages/homeMy/homeMy",
     "pages/homeFind/homeFind",
@@ -9,9 +7,14 @@
     "pages/homeVideo/homeVideo",
     "pages/aboutUserPage/myMessage",
     "pages/aboutUserPage/setting/setting",
-    "pages/playMenuSquare/playMenuSquare"
+    "pages/playMenuSquare/playMenuSquare",
+    "pages/singerLists/singerLists",
+    "pages/singerPage/singerPage",
+    "pages/search/search",
+    "pages/demo/demo"
   ],
   "window": {
+    "navigationStyle": "custom",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",

@@ -1,15 +1,17 @@
 
-.content.data-v-4f103bd0 {
+.chat.data-v-4f103bd0 {
 	background: red;
 	color: #ffffff;
-	font-size: 20rpx;
-	height: 30rpx;
-	width: 46rpx;
-	border-radius: 30rpx;
 }
-.content .round.data-v-4f103bd0 {
-	width: 30rpx;
-	height: 30rpx;
+.chat.data-v-4f103bd0:not(:empty) {
+	font-size: 20rpx;
+
+	padding: 0 10rpx;
+	border-radius: 1000rpx;
+}
+.chat.data-v-4f103bd0:empty {
+	height: 15rpx;
+	width: 15rpx;
 	border-radius: 50%;
 }
 
