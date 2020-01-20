@@ -25,7 +25,7 @@ export default {
 	},
 	data() {
 		return {
-			message: '9100'
+			message: 9001
 		};
 	}
 };

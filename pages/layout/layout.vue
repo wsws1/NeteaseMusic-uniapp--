@@ -55,6 +55,14 @@ export default {
 			topbar: [{ name: '我的' }, { name: '发现' }, { name: '云村' }, { name: '视频' }]
 		};
 	},
+
+	created() {
+		try {
+			const userInfo = uni.getStorageInfoSync('userInfo');
+		} catch (e) {
+			//TODO handle the exception
+		}
+	},
 	onLoad() {
 		// 监听全局事件
 		// changeOutSwipeLeft 内部组件改变外部swiper左滑

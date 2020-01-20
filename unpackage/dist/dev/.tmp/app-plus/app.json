@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/opening/opening",
+    "pages/login/login",
     "pages/layout/layout",
     "pages/homeMy/homeMy",
     "pages/homeFind/homeFind",
@@ -11,6 +13,7 @@
     "pages/singerLists/singerLists",
     "pages/singerPage/singerPage",
     "pages/search/search",
+    "pages/sendCode/sendCode",
     "pages/demo/demo"
   ],
   "window": {

@@ -7,7 +7,16 @@
 }
 .user-info.data-v-083b7c5d {
 	height: 25vh;
-	background: #ebebeb;
+	position: relative;
+	background-position: center center;
+}
+.lucency.data-v-083b7c5d {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.8);
 }
 .user-info .login.data-v-083b7c5d,
 .user-info .not-login.data-v-083b7c5d {
@@ -22,18 +31,24 @@
 .login .info.data-v-083b7c5d {
 	width: 100%;
 }
-.login .info .check-in.data-v-083b7c5d {
+.login .info .check-in .no-sign-in.data-v-083b7c5d {
 	color: #ffffff;
 	background: #ec3739;
-	width: 140rpx;
-	height: 50rpx;
 	border-radius: 30rpx;
+	padding: 4rpx 20rpx;
 }
 .login .info .check-in .iconfont.data-v-083b7c5d {
 	margin-right: 6rpx;
 }
+.login .info .check-in .has-sign-in.data-v-083b7c5d {
+	color: #2d2d2d;
+	border: 1rpx solid #999;
+	border-radius: 100rpx;
+	padding: 4rpx 20rpx;
+}
 .login .info .nickname.data-v-083b7c5d {
 	margin-right: 20rpx;
+	opacity: 1;
 }
 .login .avatar.data-v-083b7c5d {
 	height: 120rpx;
@@ -41,11 +56,15 @@
 	margin-bottom: 20rpx;
 }
 .not-login .login-btn.data-v-083b7c5d {
+	color: #5d5d5d;
 	border-radius: 50rpx;
 	border: 1rpx solid #c9c9c9;
 	height: 50rpx;
 	width: 200rpx;
-	margin-top: 20rpx;
+	margin-top: 40rpx;
+}
+.not-login .text.data-v-083b7c5d {
+	color: #5e5e5e;
 }
 .banner.data-v-083b7c5d {
 	height: 110rpx;
@@ -75,6 +94,12 @@
 }
 .lists .list.data-v-083b7c5d {
 	height: 80rpx;
+}
+.lists .list .left .iconfont.data-v-083b7c5d {
+	margin-right: 20rpx;
+}
+.lists .list .right.data-v-083b7c5d {
+	color: #848484;
 }
 .bottom.data-v-083b7c5d {
 	height: 100rpx;

@@ -1,7 +1,18 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 
-
+		{
+			"path": "pages/opening/opening",
+			"style": {}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": "手机号登录",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
 		{
 			"path": "pages/layout/layout",
 			"style": {}
@@ -46,9 +57,16 @@
 			"style": {}
 		},
 		{
+			"path": "pages/sendCode/sendCode",
+			"style": {}
+		},
+		{
 			"path": "pages/demo/demo",
 			"style": {}
 		}
+
+
+
 
 	],
 	"globalStyle": {
